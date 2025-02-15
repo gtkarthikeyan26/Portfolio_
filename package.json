@@ -11,6 +11,10 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "@fontsource-variable/outfit": "^5.1.1",
+    "@fontsource/roboto": "^5.1.1",
+    "framer-motion": "^12.4.3",
+    "lucide-react": "^0.475.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
