@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Hero.module.css'
-import Profilepic from '../Hero/Hero.png'
+
 
 export const Hero = () => {
   return (
@@ -11,9 +11,8 @@ export const Hero = () => {
                     I'm a Software Developer with experience in Html, Css, JavaScript, React, MySQL. 
                     Reach out to me if you'd like to connect!.
                 </p>
-                <a href="https://www.linkedin.com/in//" className={styles.contactBtn}>Contact me</a>
+                <a href="https://www.linkedin.com/in/" className={styles.contactBtn}>Contact me</a>
             </div>
-            <img src={Profilepic} alt="Image of me" className={styles.heroImg}/>
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
     </section>
