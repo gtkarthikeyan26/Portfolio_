@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
-import '@fontsource/roboto';
+import "@fontsource/hedvig-letters-sans"; // Defaults to 400 weight
 
 
 

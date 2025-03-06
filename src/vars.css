@@ -1,12 +1,12 @@
 :root{
   /* colors */
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #041e2d;
+  --color-text: #e0e6ed; /* Soft, misty white for a modern look */
+  --color-primary: #515473; /* Muted slate blue for a sleek touch */
+  --color-secondary: #1a2140; /* Deep night blue for a rich foundation */
+  --color-dark: #13172b; /* Even darker navy for enhanced contrast */
+  --color-bg: #0d1124;
 
-  /* fonts */
+ --font-primary: "Hedvig Letters Sans", sans-serif;
 
-  --font-roboto: "Roboto";
+
 }

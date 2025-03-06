@@ -1,26 +1,34 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projectss/project.png",
+      "title": "HUMBLEGAINS",
+      "imageSrc": "projectss/Humble.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://gtkarthikeyan26.github.io/HUMBLEGAINS/",
+      "source": "https://github.com/gtkarthikeyan26/HUMBLEGAINS"
     },
     {
       "title": "Project B",
-      "imageSrc": "projectss/project.png",
+      "imageSrc": "projectss/Todo.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://gtkarthikeyan26.github.io/Todo-App/",
+      "source": "https://github.com/gtkarthikeyan26/Todo-App"
     },
     {
       "title": "Project C",
-      "imageSrc": "projectss/project.png",
+      "imageSrc": "projectss/Robo.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://gtkarthikeyan26.github.io/reactworld/index.html",
+      "source": "https://github.com/gtkarthikeyan26/reactworld"
+    },
+    {
+      "title": "Quiz App",
+      "imageSrc": "projectss/Quiz.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://gtkarthikeyan26.github.io/QuizApp/",
+      "source": "https://github.com/gtkarthikeyan26/QuizApp"
     }
   ]

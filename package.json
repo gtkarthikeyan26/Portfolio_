@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fontsource-variable/outfit": "^5.1.1",
+    "@fontsource/hedvig-letters-sans": "^5.1.1",
     "@fontsource/roboto": "^5.1.1",
     "framer-motion": "^12.4.3",
     "lucide-react": "^0.475.0",
