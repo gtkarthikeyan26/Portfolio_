@@ -18,7 +18,7 @@ return (
                         />
                         <h3>Web Developer</h3>
                         <p>
-                            I'm a Software Developer with experience in building scalable and optimized applicatiions
+                        I'm a Web Developer with an understanding and creating designs and templates using CSS and Figma   
                         </p>
                     </li>
                     <li className={styles.aboutItem}>
@@ -27,7 +27,7 @@ return (
                         />
                         <h3>Software Developer</h3>
                         <p>
-                            I'm a Backend Developer with experience in building fast and efficient APIs
+                            I'm a Software Developer with experience in building scalable and optimized applicatiions
                         </p>
                     </li>
                     

@@ -12,7 +12,7 @@ export const Hero = () => {
         </p>
 
         
-        <a href="https://www.linkedin.com/in/" className={styles.contactLink}>
+        <a href="https://www.linkedin.com/in/gtrkarthikeyan/" className={styles.contactLink}>
           <button className={styles.contactBtn}>
             Contact me
             <div className={styles.hoverEffect}>

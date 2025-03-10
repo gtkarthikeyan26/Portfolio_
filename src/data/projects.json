@@ -2,7 +2,7 @@
     {
       "title": "HUMBLEGAINS",
       "imageSrc": "projectss/Humble.png",
-      "description": "Application for saving Your gym-workouts",
+      "description": "Application for saving Your gym workouts",
       "skills": ["React","Html","Css", "Javascript"],
       "demo": "https://gtkarthikeyan26.github.io/HUMBLEGAINS/",
       "source": "https://github.com/gtkarthikeyan26/HUMBLEGAINS"
@@ -18,7 +18,7 @@
     {
       "title": "Roborts",
       "imageSrc": "projectss/Robo.png",
-      "description": "Application to Run Name based on Robort Theme ",
+      "description": "Application to Run Name based on Robot Theme  ",
       "skills": ["React","Html","Css", "Javascript"],
       "demo": "https://gtkarthikeyan26.github.io/reactworld/index.html",
       "source": "https://github.com/gtkarthikeyan26/reactworld"
@@ -26,7 +26,7 @@
     {
       "title": "Quiz App",
       "imageSrc": "projectss/Quiz.png",
-      "description": "Application that gives you Quizz and shows the result",
+      "description": "An application that gives you Quizz and shows the result",
       "skills": ["React","Html","Css", "Javascript"],
       "demo": "https://gtkarthikeyan26.github.io/QuizApp/",
       "source": "https://github.com/gtkarthikeyan26/QuizApp"
