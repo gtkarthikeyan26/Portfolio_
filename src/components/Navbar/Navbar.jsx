@@ -1,39 +1,43 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+import styles from "./Navbar.module.css";
 
-import styles from "./Navbar.module.css"
+import menuIcon from "../Navbar/menuIcon.png";
+import menuClose from "../Navbar/menucloseimg.png";
 
-import menuIcon from '../Navbar/menuIcon.png'
-import menuClose from '../Navbar/menucloseimg.png'
+export const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-export const Navbar = () =>{
-    const[menuOpen, setMenuOpen] = useState(false);
-    return (<nav className= {styles.navbar}>
-        <a className = {styles.title} href = "/">Portfolio</a>
-        <div className= {styles.menu}>
-            <img 
-            className= {styles.menuBtn} 
-            src= {menuOpen 
-                ? menuClose
-                : menuIcon} 
-            alt={menuOpen ? "Close menu" : "Open menu"}
-            onClick={() => setMenuOpen(!menuOpen)}
+  const handleNavClick = () => {
+    setMenuOpen(false);
+  };
+
+  return (
+    <nav className={styles.navbar}>
+      <a className={styles.title} href="/">Portfolio</a>
+      <div className={styles.menu}>
+        {!menuOpen && (
+          <img
+            className={styles.menuBtn}
+            src={menuIcon}
+            alt="Open menu"
+            onClick={() => setMenuOpen(true)}
+          />
+        )}
+        <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}>
+          {menuOpen && (
+            <img
+              className={styles.closeBtn}
+              src={menuClose}
+              alt="Close menu"
+              onClick={() => setMenuOpen(false)}
             />
-            <ul className= {`${styles.menuItems} ${menuOpen && styles.menuOpen}`} 
-            onClick={() => setMenuOpen(false)}
-            >
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>);
+          )}
+          <li><a href="#about" onClick={handleNavClick}>About</a></li>
+          <li><a href="#experience" onClick={handleNavClick}>Experience</a></li>
+          <li><a href="#projects" onClick={handleNavClick}>Projects</a></li>
+          <li><a href="#contact" onClick={handleNavClick}>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  );
 };
